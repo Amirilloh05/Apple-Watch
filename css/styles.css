@@ -37,6 +37,7 @@ body {
 /* BUTTON */
 .button {
   display: inline-block;
+  min-width: 260px;
   text-decoration: none;
   background-color: var(--primary);
   color: #fff;
@@ -45,6 +46,7 @@ body {
   padding: 12px 39px;
   border: 0;
   line-height: 1.5;
+  text-align: center;
   text-transform: uppercase;
 transition: background-color 0.3 ease ;
 }
@@ -81,9 +83,7 @@ width: 40px;
 margin-right: 10px;
 height: 3px;
 background-color: var(--primary);
-
   content: "";
-
   transition: width 0.3s ease;
 
 }
@@ -243,6 +243,13 @@ background-size: contain;
 }
 
 
+.lead-cta---white .lead-cta-heading {
+color: #fff;
+}
+
+
+
+
 .lead-cta-text {
   width: 50%;
   padding-left: 37px;
@@ -252,6 +259,13 @@ background-size: contain;
   color: #777;
 }
 
+
+
+
+.lead-cta---white .lead-cta-text  {
+  border-color: #fff;
+  color: #fff;
+  }
 
 
 /* FEATURES */
@@ -308,4 +322,49 @@ background-color: #ddd;
 margin-left: 0;
 box-shadow: 16px 0 0 0 #ddd,
 32px 0 0 0 #ddd;
+}
+
+
+
+/* PROMO */
+.promo {
+padding-top: 70px;
+padding-bottom: 70px;
+
+
+}
+
+
+.promo-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+
+
+.promo-img {
+  width: 400px;
+  height: 600px;
+  object-fit: cover;
+}
+
+
+
+/* RUNNERS */
+.runners {
+padding-top: 240px;
+padding-bottom: 240px;
+
+background-image: url("../img/runners.jpg");
+background-position: center center;
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+}
+
+
+.runners-lead-cta {
+  margin-left: 510px;
 }
